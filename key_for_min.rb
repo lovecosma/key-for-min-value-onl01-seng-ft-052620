@@ -12,4 +12,3 @@ min << value if min[0] == nil
 end
 min
 end
-
