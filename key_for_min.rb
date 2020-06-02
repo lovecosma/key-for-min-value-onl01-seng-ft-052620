@@ -12,4 +12,4 @@ min_val_array << value if min_val_array[0] == nil
 min_val_array[0] = value if value < min_val_array[0]
 return name if age == min_val_array[0]
 end
-end 
+end
