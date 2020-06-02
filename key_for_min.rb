@@ -10,6 +10,8 @@ min_val_array = []
 name_hash.each do |name, value|
 min_val_array << value if min_val_array[0] == nil
 min_val_array[0] = value if value < min_val_array[0]
+if age == min_val_array[0]
+  return name:
 end
-min_val_array[0]
+
 end
