@@ -18,4 +18,6 @@ end
 name_hash.each do |name, value|
   return name if value == min_val_array[0]
 end
+else 
+  return nil
 end
