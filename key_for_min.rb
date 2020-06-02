@@ -10,5 +10,5 @@ min_val_array = []
 name_hash.each do |name, value|
 min_val_array << value if min_val_array[0] == nil
 end
-min
+min_val_array
 end
