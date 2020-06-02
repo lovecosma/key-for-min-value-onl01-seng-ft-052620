@@ -11,4 +11,4 @@ name_hash.each do |name, value|
 end
 end
 min
-end 
+end
