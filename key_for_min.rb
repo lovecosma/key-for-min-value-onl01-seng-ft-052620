@@ -6,8 +6,10 @@ name_hash = {
   adam: 1
 }
 def key_for_min_value(name_hash)
-  min = []
+min_val_array = []
 name_hash.each do |name, value|
-min
+min << value if min[0] == nil
+if min[0] < value 
+end
 end
 end
