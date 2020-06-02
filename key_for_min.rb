@@ -8,6 +8,6 @@ name_hash = {
 def key_for_min_value(name_hash)
   min = []
 name_hash.each do |name, value|
-min 
+min
 end
 end
