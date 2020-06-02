@@ -14,4 +14,7 @@ else
 min_val_array[0] = value if value <  min_val_array[0]
 end
 end
+name_hash.each do |name, value|
+  return name if value == min_val_array[0]
+end
 end
